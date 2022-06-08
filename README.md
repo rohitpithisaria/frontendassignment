@@ -28,6 +28,7 @@ You should use the following tools to accomplish this task:
 
 - React
 - Redux (Optional)
+- Typescript (Optional)
 - Webpack (Create-react-app boilerplate is fine)
 
 If you have any questions, please ask!
