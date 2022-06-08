@@ -1,6 +1,6 @@
 # TaxAdda Frontend Assignment
 
-As part of our application process, we'd like to see what you can produce by giving you a small test assignment. It should take you no more than a few hours to complete the assignment, but any extra polish or features you might want to put in will not go unnoticed. Also, we request you to write your own code rather than copy assignment from internet as we can easily determine originality while reviewing all internship application.
+As part of our application process, we'd like to see what you can produce by giving you a small test assignment. It should take you no more than a few hours to complete the assignment, but any extra polish or features you might want to put in will not go unnoticed. Also, we request you to write your own code rather than copy assignment from any other source as we can easily determine originality while reviewing all internship application.
 
 ## The assignment
 
