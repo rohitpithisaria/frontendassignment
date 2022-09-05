@@ -4,25 +4,47 @@ As part of our application process, we'd like to see what you can produce by giv
 
 ## The assignment
 
-We would like you to create an invoicing app. The features it should include:
+We would like you to create a small application with the following features
+## First Page - Add GSTIN
+- [ ] You have to create a page where user can add below mentioned GSTIN in the application.
+- [ ] There will be another option in this page to associate one or more Tag with the added GSTIN. User will be able to add new Tag and edit Old Tag if we want. If user create a new tag then the Tag listing should get updated and the new tag should be visible in the list.
+## Second Page - Listing of GSTIN
+- [ ] In this page, user will be able to see all the added GSTIN in his account.
+- [ ] Also, user will be able to search any GSTIN.
+- [ ] User will be able to delete any GSTIN using the delete option on the listing page.
+- [ ] Option of select number of GSTIN listing in a page like 5,10, 25 and 50.
 
-- [ ] Create a new invoice
-- [ ] Add line items to the invoice. Line items may include hours of work at a certain rate, work-related expenses, materials, labor, etc.
-- [ ] Add notes to the invoice, including possibly how to pay it, where to send checks, etc.
-- [ ] Send the invoice via email (does not have to actually send emails, but if it does, great!)
-- [ ] View invoices including status (paid, outstanding, late, etc.)
+## Few extra things which you have to do
+- [ ] Make sure you have single component for Add Tag and Delete GSTIN modal. You have to use Props to match the requirement but must have a single component which you should import in the both the pages.
+- [ ] No duplication of API’s as we have single API for listing and searching.
 
-Your backend can be anything, and does not have to work. If you would like to use a mocked-out interface, that is fine (even static data in code is ok).
+Check this video for better understanding of the requirement - https://www.awesomescreenshot.com/video/10903727?key=4ff7db76068e70f1579bd81858ebe0a9
+
+GSTIN List which user will be able to import: -
+- [ ] 27AAACV2808C1ZP
+- [ ] 08ADIPA5715B1Z3
+- [ ] 08AAACH2702H1Z0
+- [ ] 07AAACH2702H1Z2
+- [ ] 20AAACH2702H1ZE
+- [ ] 29AAACI4798L1ZU
+- [ ] 36AAACI4798L1ZZ
+- [ ] 06AABCI6363G1ZN
+- [ ] 27AAACY2068D1ZG
+- [ ] 07AAACY2068D1ZI
+- [ ] 08AAACY2068D1ZG
+- [ ] 04AAACY2068D1
+
+Note - Please use your email as user in all the API’s.  We are uploading you Thunderclient collection so you can check the response from the API’s.
+
 
 #### Extra credit features
-
-- [ ] Add a due date to an invoice
-- [ ] View late invoices, or even better, alert when an invoice is late
 - [ ] Polish and UX
 - [ ] Highly reusable components
 - [ ] Tests
 
 ## Requirements
+
+
 
 You should use the following tools to accomplish this task:
 
@@ -30,6 +52,8 @@ You should use the following tools to accomplish this task:
 - Redux (Optional)
 - Typescript (Optional)
 - Webpack (Create-react-app boilerplate is fine)
+
+We are looking only for serious candidate so I request you to apply only if you have sufficient free time to do internship.
 
 If you have any questions, please ask!
 
