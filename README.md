@@ -57,4 +57,8 @@ We are looking only for serious candidate so I request you to apply only if you 
 
 If you have any questions, please ask!
 
-To complete your assignment, please fork this repo and commit your work to your fork. When you are ready for us to look at it, give us access to your fork so we can review and run it.
+Upon completion of the assignment, please push the code into a private github repository and provide access to @rohitpithisaria. Make sure you keep it Private not Public.
+
+Looking forward to your submission!
+
+Please fill up this short form for its submission - https://docs.google.com/forms/d/e/1FAIpQLSfE3abmPUj7uZnSebuAomczuVwSZaNWKmnUewMjv_tAN5qhhA/viewform
