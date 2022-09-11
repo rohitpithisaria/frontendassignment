@@ -1,0 +1,340 @@
+body {
+    background: #fff;
+    margin: 0;
+    font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    padding-left: 240px;
+    background-image: url(bg7.png);
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+
+  }
+
+
+  main {
+    position: relative;
+    height: 90vh;
+  }
+  main .helper {
+    background: rgba(0, 0, 0, 0.2);
+    color: #ffea92;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    padding: 1.2em 2em;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  main .helper span {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 0.4em;
+    display: block;
+  }
+  .menu {
+    background: #000;
+    height: 100vh;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    outline: none;
+  }
+  .logo .nav-bar{
+    margin-top: 0.3rm;
+    margin-bottom: 0.7rem;
+  }
+  .menu ul {
+    list-style: none;
+    padding: 0.5em 0;
+    margin: 0;
+  }
+  .menu ul li {
+    padding: 0.5em 1em 0.5em 3em;
+    font-size: 1em;
+    font-weight: regular;
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    background-size: auto 20px;
+    transition: all 0.15s linear;
+    cursor: pointer;
+  }
+
+  .menu ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .menu ul li:focus {
+    outline: none;
+  }
+  @media screen and (max-width: 900px) and (min-width: 400px) {
+    body {
+      padding-left: 90px;
+    }
+    .menu {
+      width: 90px;
+    }
+    
+    .menu ul li {
+      height: 60px;
+      background-position: center center;
+      background-size: 30px auto;
+      position: relative;
+    }
+    .menu ul li span {
+      opacity: 0;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0.2em 0.5em;
+      border-radius: 4px;
+      top: 50%;
+      left: 80px;
+      transform: translate3d(-15px, -50%, 0);
+      transition: all 0.15s ease-in-out;
+    }
+    .menu ul li span:before {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 50%;
+      left: -5px;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-right: 5px solid rgba(0, 0, 0, 0.5);
+      transform: translateY(-50%);
+    }
+    .menu ul li:hover span {
+      opacity: 1;
+      transform: translate3d(0px, -50%, 0);
+    }
+  }
+  @media screen and (max-width: 400px) {
+    body {
+      padding-left: 0;
+    }
+    .menu {
+      width: 230px;
+      box-shadow: 0 0 0 100em rgba(0, 0, 0, 0);
+      transform: translate3d(-230px, 0, 0);
+      transition: all 0.3s ease-in-out;
+    }
+    
+    
+    .menu ul li {
+      padding: 1em 1em 1em 3em;
+      font-size: 1.2em;
+    }
+    .menu:focus {
+      transform: translate3d(0, 0, 0);
+      box-shadow: 0 0 0 100em rgba(0, 0, 0, 0.6);
+    }
+   
+  }
+  
+/*---------------------------------------------top-nav--------------------------*/
+
+.top-nav{
+  float: right;
+  
+  color: #04AA6D;
+  border-radius: 5px;
+  margin-right: 2rem;
+  position: relative;
+  margin-top: 1rem;
+ 
+}
+.li .top-nav{
+  text-decoration: none;
+
+}
+
+.horizontal-bar{
+  background-color: #000;
+
+  size: 0.7rem;
+
+}
+
+button{
+        
+  
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    margin: 4px 2px;
+ 
+}
+.text{
+    color: #000;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    font-size: 0.9rem;
+    margin-right: 55rem;
+    padding: calc(18vh - 25vh);
+    position: fixed;
+}
+
+
+
+
+
+
+/*-------------------------form--------------------------*/
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 425px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #04AA6D;
+  padding: 20px;
+  color: #000;
+  width: 425px;
+  float: right;
+  margin-right: 10rem;
+  margin-bottom: none;
+  margin-top: 4rem;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 425px;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 425px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.impor:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*--------------------------x--------------form--------------------x--------------*/
+
+
+
+
+
+
+.open-button {
+  background-color: #000;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #04AA6D;
+  z-index: 9;
+  
+  
+}
+
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #555;
+}
+
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 260px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color:  #fff;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+

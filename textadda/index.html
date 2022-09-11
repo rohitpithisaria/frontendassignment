@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TexAdda</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+    <!-----------------------------side navbar------------------------>
+    
+    <div class="nav-bar">
+        <nav class="menu" tabindex="0">
+           
+            <div class="logo">TexAdda</div>
+            <ul>
+            <li><span>GSTINList</span><i class="fa-duotone fa-money-bill-transfer"></i></li>
+            <li><span>Return Status</span></li>
+            <li><span>QRMP</span></li>
+            <li><span>TAGS</span></li>
+        
+            </nav>
+          </ul>   
+    </div>
+     <!---------------x--------------side navbar end--------------x---------->
+
+
+    <!---------------------------------subscription starts--------------------->
+    <nav class="horizontal-bar">
+     <section class="top-nav">
+        <div class="top-nav_">
+            
+            
+            <button type="button">Subscription</button>
+         
+        </div>
+     </section>
+
+       <!---------------------------------subscription ends--------------------->
+
+    
+     </nav>
+        <div class="text">
+        <h4 style="color: #04AA6D;">Add lines</h4>
+        <p style="color: #000;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsum maxime repellat impedit sequi modi. Sunt non minus a. Consequuntur reprehenderit velit possimus dignissimos ut inventore quasi nisi fuga minus?</p>
+        <h4 style="color: #04AA6D;">how are gst do</h4>
+        <p style="color: #000;">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsum expedita non. Qui doloremque error iure, sequi corporis dicta quidem iste impedit blanditiis earum iusto? Consectetur ratione doloribus minus quisquam.</p>
+      </div>
+    
+
+      
+      <div class="container">
+       
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+                <h5>Enter one or many gstin to import</h5>
+              <label for="fname">GSTIN</label>
+              <div class="import">
+               
+                  
+                    <label for="import">import gstin</label>
+                
+                    <div class="col-75">
+                      <textarea id="import" name="import " placeholder="import you're GSTIN " style= "height:200px"></textarea>
+                    </div>
+              </div>
+            </div>
+  
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Select Tags</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="tag1">tag1</option>
+                <option value="tag2">tag2</option>
+                <option value="tag3">tag3</option>
+                <option value="tag4">tag4</option>
+                <option value="tag5">tag5</option>
+                <option value="tag6">tag6</option>
+              </select>
+            </div>
+          </div>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam saepe sequi sapiente nisi vero necessitatibus expedita facere nobis natus?</p>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+  
+    </div>
+
+    <!-------------------------xxxxx---pop up form -------xxxx----------------------------->
+    <button class="open-button" onclick="openForm()">Contact Us</button>
+   
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1> <h3>Team TextAdda welcome you</h3></h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+
+         
+       <!-----------------xxxxx-----------pop up form ----------------x-xxx-------------->
+       <script src="main.js"></script>
+</body>
+</html>
